@@ -1,1 +1,0 @@
-{"version":3,"sources":["sf-demo.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"sf-demo.dbf8c9c7.css","sourceRoot":"..\\public","sourcesContent":["body {\r\n  background: #222;\r\n  color: grey;\r\n  font-family: sans-serif;\r\n}\r\n"]}

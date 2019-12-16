@@ -1,1 +1,0 @@
-{"version":3,"sources":["snowflakes.css"],"names":[],"mappings":"AAAA,WACE,SAAW,CACX,cACF","file":"snowflakes.c83b5a17.css","sourceRoot":"..\\public","sourcesContent":[".snowflake {\r\n  fill: white;\r\n  position: fixed;\r\n}"]}

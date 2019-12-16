@@ -1,0 +1,2 @@
+.snowflake{fill:#fff;position:fixed;opacity:.8;pointer-events:none;top:-7vh}.fallAnimation{animation-name:flakefall;animation-duration:5s;animation-iteration-count:infinite;animation-timing-function:linear}@keyframes flakefall{0%{top:-7vh}to{top:100vh}}
+/*# sourceMappingURL=/snowflakes.f99f393b.css.map */

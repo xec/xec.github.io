@@ -1,0 +1,10 @@
+table.svelte-tq031t.svelte-tq031t{border-collapse:collapse}label.svelte-tq031t.svelte-tq031t{min-width:6rem;display:inline-block}.base.svelte-tq031t.svelte-tq031t{background-color:var(--bfc-base-120);color:var(--bfc-base-200)}.swatch.svelte-tq031t.svelte-tq031t{width:10rem}input[type="range"].svelte-tq031t.svelte-tq031t{-webkit-appearance:none}.hueRange.svelte-tq031t.svelte-tq031t{background-image:linear-gradient(
+      90deg,
+      hsl(0, 100%, 50%),
+      hsl(60, 100%, 50%),
+      hsl(120, 100%, 50%),
+      hsl(180, 100%, 50%),
+      hsl(240, 100%, 50%),
+      hsl(300, 100%, 50%),
+      hsl(360, 100%, 50%)
+    )}td.svelte-tq031t.svelte-tq031t{padding-left:1rem}.colorTable.svelte-tq031t.svelte-tq031t{margin-top:2rem}.colorTable.svelte-tq031t td.svelte-tq031t,.colorTable th+th.svelte-tq031t.svelte-tq031t{text-align:right;padding-left:1rem}

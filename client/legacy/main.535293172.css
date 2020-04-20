@@ -232,7 +232,7 @@ html {
   text-align: center;
   width: 1.25em;
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Mr+Dafoe&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Mr+Dafoe&display=swap");
 
 html,
 body {
@@ -256,6 +256,7 @@ body {
 }
 
 .streak {
+  display: inline-block;
   font-family: "Mr Dafoe", cursive;
   color: #ff3e00;
   font-size: 4em;
@@ -264,10 +265,12 @@ body {
   background: -webkit-linear-gradient(90deg, yellow, #ff0000 23%, #bb00ff 76%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding: 0 1.5rem;
 }
 
 .bf-lightmode .snowflake {
-  fill: #88b5e6
+  fill: #88b5e6;
 }
 main.svelte-p2dh8s{position:relative;padding:2em;margin:0 auto;box-sizing:border-box}
 h1.svelte-13vgy2g,p.svelte-13vgy2g{margin:0 auto}h1.svelte-13vgy2g{font-size:2.8em;font-weight:700;margin:0 0 0.5em 0}p.svelte-13vgy2g{margin:1em auto}@media(min-width: 480px){h1.svelte-13vgy2g{font-size:4em}}
+.fa-icon.svelte-1dof0an{display:inline-block;fill:currentColor}.fa-flip-horizontal.svelte-1dof0an{transform:scale(-1, 1)}.fa-flip-vertical.svelte-1dof0an{transform:scale(1, -1)}.fa-spin.svelte-1dof0an{animation:svelte-1dof0an-fa-spin 1s 0s infinite linear}.fa-inverse.svelte-1dof0an{color:#fff}.fa-pulse.svelte-1dof0an{animation:svelte-1dof0an-fa-spin 1s infinite steps(8)}@keyframes svelte-1dof0an-fa-spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}

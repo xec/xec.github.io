@@ -1,0 +1,1 @@
+import{o as r,q as e,r as c,v as a,j as i,w as l,d as u,x as _}from"./runtime.B-0C5A9i.js";function m(){const s=c,n=s.l.u;n&&(n.b.length&&r(()=>{f(s),a(n.b)}),e(()=>{const o=i(()=>n.m.map(l));return()=>{for(const t of o)typeof t=="function"&&t()}}),n.a.length&&e(()=>{f(s),a(n.a)}))}function f(s){if(s.l.s)for(const n of s.l.s)u(n);_(s.s)}export{m as i};

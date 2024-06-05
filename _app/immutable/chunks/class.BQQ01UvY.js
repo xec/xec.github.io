@@ -1,0 +1,1 @@
+import{h as l}from"./template.B4OB2rPh.js";function r(s,e){var a=s.__className,t=c(e);l&&s.getAttribute("class")===t?s.__className=t:(a!==t||l&&s.getAttribute("class")!==t)&&(t===""?s.removeAttribute("class"):s.setAttribute("class",t),s.__className=t)}function c(s){return s??""}function _(s,e,a){a?s.classList.add(e):s.classList.remove(e)}export{r as s,_ as t};

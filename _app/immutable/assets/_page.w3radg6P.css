@@ -1,0 +1,1 @@
+:root{--color_1: salmon;--color_2: green}.foo.svelte-slc8vt{--bg: var(--color_1, var(--color_2, black));background-color:var(--bg);color:var(--color_2, var(--color_1, white))}

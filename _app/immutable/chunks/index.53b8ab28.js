@@ -1,7 +1,0 @@
-import{l as B,p as x,d as w,m as O}from"./scheduler.d55266ba.js";function C(t){const e=t-1;return e*e*e+1}function U(t){return--t*t*t*t*t+1}function V(t,{delay:e=0,duration:r=400,easing:i=B}={}){const g=+getComputedStyle(t).opacity;return{delay:e,duration:r,easing:i,css:a=>`opacity: ${a*g}`}}function b(t,{delay:e=0,duration:r=400,easing:i=C,x:g=0,y:a=0,opacity:u=0}={}){const o=getComputedStyle(t),f=+o.opacity,s=o.transform==="none"?"":o.transform,n=f*(1-u),[p,y]=x(g),[d,$]=x(a);return{delay:e,duration:r,easing:i,css:(l,h)=>`
-			transform: ${s} translate(${(1-l)*p}${y}, ${(1-l)*d}${$});
-			opacity: ${f-n*h}`}}function v({fallback:t,...e}){const r=new Map,i=new Map;function g(u,o,f){const{delay:s=0,duration:n=c=>Math.sqrt(c)*30,easing:p=C}=w(w({},e),f),y=u.getBoundingClientRect(),d=o.getBoundingClientRect(),$=y.left-d.left,l=y.top-d.top,h=y.width/d.width,k=y.height/d.height,q=Math.sqrt($*$+l*l),m=getComputedStyle(o),M=m.transform==="none"?"":m.transform,S=+m.opacity;return{delay:s,duration:O(n)?n(q):n,easing:p,css:(c,_)=>`
-				opacity: ${c*S};
-				transform-origin: top left;
-				transform: ${M} translate(${_*$}px,${_*l}px) scale(${c+(1-c)*h}, ${c+(1-c)*k});
-			`}}function a(u,o,f){return(s,n)=>(u.set(n.key,s),()=>{if(o.has(n.key)){const p=o.get(n.key);return o.delete(n.key),g(p,s,n)}return u.delete(n.key),t&&t(s,n,f)})}return[a(i,r,!1),a(r,i,!0)]}export{b as a,v as b,C as c,V as f,U as q};

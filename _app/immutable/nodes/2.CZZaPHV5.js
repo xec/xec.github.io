@@ -1,0 +1,1 @@
+import"../chunks/disclose-version.Bg9kRutz.js";import{$ as t}from"../chunks/runtime.B5NQFKQS.js";import{h as o}from"../chunks/svelte-head.1DljZgjM.js";import{a as r,t as i}from"../chunks/template.CwwnFE9K.js";var m=i('<div class="page"><h1 class="streak">Streamline design</h1></div>');function l(a){var e=m();o(s=>{t.title="Streamline design"}),r(a,e)}export{l as component};
